@@ -1,0 +1,9 @@
+import urllib
+
+thisurl = "https://en.wikipedia.org/wiki/Barack_Obama"
+
+handle = urllib.urlopen(thisurl)
+
+html_gunk = handle.read()
+
+print html_gunk

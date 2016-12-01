@@ -1,0 +1,4 @@
+from neo4j.v1 import GraphDatabase, basic_auth
+
+def DatabaseCall():
+    return "no"

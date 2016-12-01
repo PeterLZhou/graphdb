@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <link type="text/css" href="{% static "css/engine.css" %}" rel="stylesheet" />
+    <link type="text/css" href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="{% static "js/engine.js" %}"></script>
+    <h1 class="title"> Eureka! </h1>
+    <form id="form" name="form" autocomplete="off" onsubmit="return outcome();">
+      <input id="textbox" type="text" name="question" placeholder="Enter a question">
+    </form>
+    <p id="answer"></p>
+  </body>
+</html>
